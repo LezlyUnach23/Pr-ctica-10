@@ -1,0 +1,116 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script type="text/javascrip" src="js/bootstrap.min.js"></script>
+    <title>practica 10</title>
+</head>
+<body>
+  
+    <head>
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> Contacto</a>
+                </li>
+              </ul>
+        </nav>
+    </head>
+    <article>
+        <div class="container">
+              <img src="img/contenido.jpg" alt="contenido" id="contenido"/>
+            <h1>Mi Página con Bootstrap</h1>    
+         </div>
+            <P>Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.</P>
+        <table class="table">
+           <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre Completo</th>
+                <th scope="col">Apellido Paterno</th>
+                <th scope="col">Apellido Materno</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                    <td>Raymundo Emiliano</td>
+                    <td>Marínez</td>
+                    <td>López</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                    <td>Luz Belem</td>
+                    <td>Trejo</td>
+                    <td>López</td>
+              </tr>
+              <tr>
+                     <th scope="row">3</th>
+                     <td>Amilcar Eduardo</td>
+                     <td>Zuñiga</td>
+                     <td>Vazquez</td>
+              </tr>
+           </tbody>
+          
+          <div class="row">
+            <div class="col-4">
+              <div class="card-body">
+                <h5 class="card-title">Proyectos Ambientales</h5>
+                <h6 class="card-subtitle md-2 text-muted">subtitulo</h6>
+                <p class="card-text">Texto.</p>
+                <a href="#" class="card-link">Link 1</a>
+              </div>
+            </div>
+              <div class="col-4">
+                <div class="card-body">
+                    <h5 class="card-title">Redes y Servicios de Comunicación</h5>
+                    <h6 class="card-subtitle md-2 text-muted">subtitulo</h6>
+                    <p class="card-text">Texto.</p>
+                    <a href="#" class="card-link">Link 2</a>
+               </div>
+              </div>
+              <div class="col-4">
+                <div class="card-body">
+                    <h5 class="card-title">Ingles IV</h5>
+                    <h6 class="card-subtitle md-2 text-muted">subtitulo</h6>
+                    <p class="card-text">Texto.</p>
+                    <a href="#" class="card-link">Link 3</a>
+              </div>
+            </div>
+            
+        </table>
+        
+        
+        
+       
+        
+        </div>
+         
+          
+          
+      
+    </article>
+    <footer>
+      
+        
+          <h4>Contacto</h4>
+          <p><strong>correo:</strong>lesly.diaz43@unach.mx</p>
+       
+          <h4>Datos</h4>
+          <p><strong>Nombre:</strong>Lesly Elizabeth Díaz López</p>
+          <p><a href="https://www.unach.mx/">Sitio UNACH</a></p>
+    </footer>
+    
+</body>
